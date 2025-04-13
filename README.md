@@ -8,9 +8,12 @@ The original project is located here: https://github.com/e2002/yoradio
 #### Quick start guide
 
 Prerequesties:
+
 - installed Visual Studio Code
 - installed Platformio
 - prepared myoptions.h by the simple myoptions generator: https://e2002.github.io/docs/myoptions-generator.html (the codebase will work only on the WROOM module, if you have WVOVER - please adopt the platformio.ini)
+
+How-to:
 
 - Open Workspace from file... yoradio.code-workspace
 - Wait until vscode / platformio prepare the workspace (download dependencies)
