@@ -19,6 +19,5 @@ How-to:
 - Wait until vscode / platformio prepare the workspace (download dependencies)
 - Place/replace your myoptions.h under existing yoRadio/myoptions.h
 - Now build the firmware
-- If your display is not ILI9341 - please update your platformio.ini - add a new dependency as adafruit/Adafruit XXXX@^x.x.x library/version respectfully to your display model
 - Maybe you need also to build and upload the SPIFFS image (via the platformio menu - Build Filesystem image, Uoload Filesystem image)
 - Upload the firmware into the board using platformio
